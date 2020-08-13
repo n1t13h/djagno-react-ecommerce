@@ -43,7 +43,7 @@ def signin(request):
                 email=username).values().first()
             usr_dict.pop('password')
 
-            if user.session_token != 0:
+            if user.session_token != "0":
                 user.session_token = "0"
                 user.save()
                 return JsonResponse({

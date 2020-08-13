@@ -12,6 +12,7 @@ pylint = "*"
 djangorestframework = "*"
 autopep8 = "*"
 pillow = "*"
+braintree = "*"
 
 [requires]
 python_version = "3.8"
